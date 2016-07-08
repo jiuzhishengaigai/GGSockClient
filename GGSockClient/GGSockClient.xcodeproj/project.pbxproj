@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F48457A1D2E71A0009CAB9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4845791D2E71A0009CAB9A /* main.m */; };
+		6F48457D1D2E71A0009CAB9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F48457C1D2E71A0009CAB9A /* AppDelegate.m */; };
+		6F4845801D2E71A0009CAB9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F48457F1D2E71A0009CAB9A /* ViewController.m */; };
+		6F4845831D2E71A0009CAB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4845811D2E71A0009CAB9A /* Main.storyboard */; };
+		6F4845851D2E71A0009CAB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4845841D2E71A0009CAB9A /* Assets.xcassets */; };
+		6F4845881D2E71A0009CAB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4845861D2E71A0009CAB9A /* LaunchScreen.storyboard */; };
+		6F4845931D2E71A0009CAB9A /* GGSockClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4845921D2E71A0009CAB9A /* GGSockClientTests.m */; };
+		6F48459E1D2E71A0009CAB9A /* GGSockClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F48459D1D2E71A0009CAB9A /* GGSockClientUITests.m */; };
+		6FEB23861D2F45820089D18C /* GGSocketTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEB23851D2F45820089D18C /* GGSocketTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F48458F1D2E71A0009CAB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F48456D1D2E71A0009CAB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4845741D2E71A0009CAB9A;
+			remoteInfo = GGSockClient;
+		};
+		6F48459A1D2E71A0009CAB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F48456D1D2E71A0009CAB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4845741D2E71A0009CAB9A;
+			remoteInfo = GGSockClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F4845751D2E71A0009CAB9A /* GGSockClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGSockClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4845791D2E71A0009CAB9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F48457B1D2E71A0009CAB9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F48457C1D2E71A0009CAB9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F48457E1D2E71A0009CAB9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F48457F1D2E71A0009CAB9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F4845821D2E71A0009CAB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F4845841D2E71A0009CAB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F4845871D2E71A0009CAB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F4845891D2E71A0009CAB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F48458E1D2E71A0009CAB9A /* GGSockClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGSockClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4845921D2E71A0009CAB9A /* GGSockClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGSockClientTests.m; sourceTree = "<group>"; };
+		6F4845941D2E71A0009CAB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4845991D2E71A0009CAB9A /* GGSockClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGSockClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F48459D1D2E71A0009CAB9A /* GGSockClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGSockClientUITests.m; sourceTree = "<group>"; };
+		6F48459F1D2E71A0009CAB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FEB23841D2F45820089D18C /* GGSocketTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSocketTools.h; sourceTree = "<group>"; };
+		6FEB23851D2F45820089D18C /* GGSocketTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSocketTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F4845721D2E71A0009CAB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F48458B1D2E71A0009CAB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4845961D2E71A0009CAB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F48456C1D2E71A0009CAB9A = {
+			isa = PBXGroup;
+			children = (
+				6F4845771D2E71A0009CAB9A /* GGSockClient */,
+				6F4845911D2E71A0009CAB9A /* GGSockClientTests */,
+				6F48459C1D2E71A0009CAB9A /* GGSockClientUITests */,
+				6F4845761D2E71A0009CAB9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F4845761D2E71A0009CAB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4845751D2E71A0009CAB9A /* GGSockClient.app */,
+				6F48458E1D2E71A0009CAB9A /* GGSockClientTests.xctest */,
+				6F4845991D2E71A0009CAB9A /* GGSockClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4845771D2E71A0009CAB9A /* GGSockClient */ = {
+			isa = PBXGroup;
+			children = (
+				6F48457B1D2E71A0009CAB9A /* AppDelegate.h */,
+				6F48457C1D2E71A0009CAB9A /* AppDelegate.m */,
+				6F48457E1D2E71A0009CAB9A /* ViewController.h */,
+				6F48457F1D2E71A0009CAB9A /* ViewController.m */,
+				6FEB23841D2F45820089D18C /* GGSocketTools.h */,
+				6FEB23851D2F45820089D18C /* GGSocketTools.m */,
+				6F4845811D2E71A0009CAB9A /* Main.storyboard */,
+				6F4845841D2E71A0009CAB9A /* Assets.xcassets */,
+				6F4845861D2E71A0009CAB9A /* LaunchScreen.storyboard */,
+				6F4845891D2E71A0009CAB9A /* Info.plist */,
+				6F4845781D2E71A0009CAB9A /* Supporting Files */,
+			);
+			path = GGSockClient;
+			sourceTree = "<group>";
+		};
+		6F4845781D2E71A0009CAB9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F4845791D2E71A0009CAB9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F4845911D2E71A0009CAB9A /* GGSockClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F4845921D2E71A0009CAB9A /* GGSockClientTests.m */,
+				6F4845941D2E71A0009CAB9A /* Info.plist */,
+			);
+			path = GGSockClientTests;
+			sourceTree = "<group>";
+		};
+		6F48459C1D2E71A0009CAB9A /* GGSockClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F48459D1D2E71A0009CAB9A /* GGSockClientUITests.m */,
+				6F48459F1D2E71A0009CAB9A /* Info.plist */,
+			);
+			path = GGSockClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F4845741D2E71A0009CAB9A /* GGSockClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4845A21D2E71A0009CAB9A /* Build configuration list for PBXNativeTarget "GGSockClient" */;
+			buildPhases = (
+				6F4845711D2E71A0009CAB9A /* Sources */,
+				6F4845721D2E71A0009CAB9A /* Frameworks */,
+				6F4845731D2E71A0009CAB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGSockClient;
+			productName = GGSockClient;
+			productReference = 6F4845751D2E71A0009CAB9A /* GGSockClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F48458D1D2E71A0009CAB9A /* GGSockClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4845A51D2E71A0009CAB9A /* Build configuration list for PBXNativeTarget "GGSockClientTests" */;
+			buildPhases = (
+				6F48458A1D2E71A0009CAB9A /* Sources */,
+				6F48458B1D2E71A0009CAB9A /* Frameworks */,
+				6F48458C1D2E71A0009CAB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F4845901D2E71A0009CAB9A /* PBXTargetDependency */,
+			);
+			name = GGSockClientTests;
+			productName = GGSockClientTests;
+			productReference = 6F48458E1D2E71A0009CAB9A /* GGSockClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F4845981D2E71A0009CAB9A /* GGSockClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4845A81D2E71A0009CAB9A /* Build configuration list for PBXNativeTarget "GGSockClientUITests" */;
+			buildPhases = (
+				6F4845951D2E71A0009CAB9A /* Sources */,
+				6F4845961D2E71A0009CAB9A /* Frameworks */,
+				6F4845971D2E71A0009CAB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F48459B1D2E71A0009CAB9A /* PBXTargetDependency */,
+			);
+			name = GGSockClientUITests;
+			productName = GGSockClientUITests;
+			productReference = 6F4845991D2E71A0009CAB9A /* GGSockClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F48456D1D2E71A0009CAB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GaiGai;
+				TargetAttributes = {
+					6F4845741D2E71A0009CAB9A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 347HX424XK;
+					};
+					6F48458D1D2E71A0009CAB9A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 347HX424XK;
+						TestTargetID = 6F4845741D2E71A0009CAB9A;
+					};
+					6F4845981D2E71A0009CAB9A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 347HX424XK;
+						TestTargetID = 6F4845741D2E71A0009CAB9A;
+					};
+				};
+			};
+			buildConfigurationList = 6F4845701D2E71A0009CAB9A /* Build configuration list for PBXProject "GGSockClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F48456C1D2E71A0009CAB9A;
+			productRefGroup = 6F4845761D2E71A0009CAB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4845741D2E71A0009CAB9A /* GGSockClient */,
+				6F48458D1D2E71A0009CAB9A /* GGSockClientTests */,
+				6F4845981D2E71A0009CAB9A /* GGSockClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F4845731D2E71A0009CAB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4845881D2E71A0009CAB9A /* LaunchScreen.storyboard in Resources */,
+				6F4845851D2E71A0009CAB9A /* Assets.xcassets in Resources */,
+				6F4845831D2E71A0009CAB9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F48458C1D2E71A0009CAB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4845971D2E71A0009CAB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F4845711D2E71A0009CAB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4845801D2E71A0009CAB9A /* ViewController.m in Sources */,
+				6F48457D1D2E71A0009CAB9A /* AppDelegate.m in Sources */,
+				6FEB23861D2F45820089D18C /* GGSocketTools.m in Sources */,
+				6F48457A1D2E71A0009CAB9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F48458A1D2E71A0009CAB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4845931D2E71A0009CAB9A /* GGSockClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4845951D2E71A0009CAB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F48459E1D2E71A0009CAB9A /* GGSockClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F4845901D2E71A0009CAB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4845741D2E71A0009CAB9A /* GGSockClient */;
+			targetProxy = 6F48458F1D2E71A0009CAB9A /* PBXContainerItemProxy */;
+		};
+		6F48459B1D2E71A0009CAB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4845741D2E71A0009CAB9A /* GGSockClient */;
+			targetProxy = 6F48459A1D2E71A0009CAB9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F4845811D2E71A0009CAB9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4845821D2E71A0009CAB9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F4845861D2E71A0009CAB9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4845871D2E71A0009CAB9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F4845A01D2E71A0009CAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F4845A11D2E71A0009CAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F4845A31D2E71A0009CAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGSockClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GaiGai.GGSockClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F4845A41D2E71A0009CAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGSockClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GaiGai.GGSockClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F4845A61D2E71A0009CAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GGSockClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GaiGai.GGSockClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGSockClient.app/GGSockClient";
+			};
+			name = Debug;
+		};
+		6F4845A71D2E71A0009CAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GGSockClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GaiGai.GGSockClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGSockClient.app/GGSockClient";
+			};
+			name = Release;
+		};
+		6F4845A91D2E71A0009CAB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GGSockClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GaiGai.GGSockClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GGSockClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F4845AA1D2E71A0009CAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GGSockClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GaiGai.GGSockClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GGSockClient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F4845701D2E71A0009CAB9A /* Build configuration list for PBXProject "GGSockClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4845A01D2E71A0009CAB9A /* Debug */,
+				6F4845A11D2E71A0009CAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4845A21D2E71A0009CAB9A /* Build configuration list for PBXNativeTarget "GGSockClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4845A31D2E71A0009CAB9A /* Debug */,
+				6F4845A41D2E71A0009CAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4845A51D2E71A0009CAB9A /* Build configuration list for PBXNativeTarget "GGSockClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4845A61D2E71A0009CAB9A /* Debug */,
+				6F4845A71D2E71A0009CAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4845A81D2E71A0009CAB9A /* Build configuration list for PBXNativeTarget "GGSockClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4845A91D2E71A0009CAB9A /* Debug */,
+				6F4845AA1D2E71A0009CAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F48456D1D2E71A0009CAB9A /* Project object */;
+}
